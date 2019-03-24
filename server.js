@@ -10,9 +10,12 @@ app.get("/", function(req, res) {
 })
 
 app.get("/features", function(req, res) {
-	res.render("features.html");
+	res.render("features");
 })
 
+app.get("/about", function(req, res) {
+	res.render("about");
+})
 
 app.listen(port, function() {
 	console.log("app running");
