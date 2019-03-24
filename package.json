@@ -1,0 +1,12 @@
+{
+	"name": "simplesite",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.16.4"
+	},
+	"author": "Anthony Yip",
+	"license": "ISC"
+}
