@@ -19,6 +19,15 @@ app.get("/about", function(req, res) {
 	res.sendFile(__dirname+"/about.html");
 })
 
+app.get("/influencers", function(req, res) {
+	res.sendFile(__dirname+"/influencers.html");
+})
+
+app.get("/contact", function(req, res) {
+	res.sendFile(__dirname+"/contact.html");
+})
+
+
 app.listen(port, function() {
 	console.log("app running");
 })
